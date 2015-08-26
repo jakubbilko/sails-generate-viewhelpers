@@ -1,0 +1,34 @@
+{
+  "name": "sails-generate-viewhelpers",
+  "version": "0.1.0",
+  "description": "Generates a service for using express-helpers in your SailsJS app.",
+  "main": "Generator.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "viewhelpers",
+    "generator",
+    "sails",
+    "generate",
+    "plugin",
+    "helpers",
+    "express-helpers"
+  ],
+  "author": "Jakub Bilko <kozulowski@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+  	"lodash": ">=2.4.x",
+  	"merge-defaults": ">=0.1.0"
+  },
+  "devDependencies": {
+    "sails-generate": "*",
+    "reportback": "*",
+    "fs-extra": "*"
+  },
+  "sailsGenerator": {
+    "type": "viewhelpers",
+    "behavior": "overrides `sails generate viewhelpers`",
+    "sailsVersion": "0.10.x"
+  }
+}
